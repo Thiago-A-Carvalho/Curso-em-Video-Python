@@ -12,7 +12,7 @@ Transformação:
 - variável.title() faz o que o capitalize faz, porém, palavra por palavra.
 - variável.strip() remove espaços antes e depois da string.
 - variável.rstrip() remove só os espaços a direita da string (no final).
-- variável.lstring() remove só os espaços a esquerda da string (no inicio).
+- variável.lstrip() remove só os espaços a esquerda da string (no inicio).
 
 Divisão:
 - variável.split() divide uma string em uma lista, onde cada elemente é separado por seu caractere de split, que por padrão é o "espaço"

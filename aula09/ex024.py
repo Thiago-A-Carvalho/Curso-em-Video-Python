@@ -17,7 +17,7 @@ print(f'Total de letras sem espaços: {len(nome2)}')
 nome = nome.split()
 print(f'Seu primeiro nome é {nome[0]} e possui {len(nome[0])} letras')
 """
-# Resolução do professor
+# Resolução do professor:
 nome = str(input('Digite seu nome completo: ')).strip()
 print(f'Analisando seu nome...')
 print(f'Em maiúsculo: {nome.upper()}')
