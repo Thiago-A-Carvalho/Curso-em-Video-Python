@@ -23,9 +23,8 @@ for c in range(i, f + 1, p):
     print(c)
 print('Fim!')
 """
-soma = 1
-print(soma)
-for soma in range(0, 1):
-    num = int(input('Digite um número: '))
-    soma = soma + num
-print(soma)
+s = 0
+for c in range(0, 4):
+    n = int(input('Digite um número: '))
+    s += n
+print(f'A soma de todos os valores é {s}')
